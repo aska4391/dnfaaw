@@ -1,0 +1,40 @@
+.about-elem {
+    display : flex;
+    width : 513px;
+    color : darkgrey;
+    font-family: 'Consolas';
+    font-weight: 100;
+    flex-direction: column;
+    /*font-style : italic;*/
+    padding : 100px 0 100px 0;
+    box-sizing: border-box;
+    /*flex-wrap : wrap;*/
+    justify-content: center;
+    align-items: center;
+}
+
+.about-elem > div {
+    display : flex;
+    width : 250px;
+    /*flex : 1;*/
+}
+.about.profile {
+    display : flex;
+    justify-content: center;
+    align-content: center;
+}
+about.profile > div {
+    display: flex;
+    align-items: flex-start;
+}
+.about.profile > div > img {
+    width : 180px;
+    height: 180px;
+}
+.about.info {
+    display : flex;
+    flex-direction: column;
+}
+.about.title {
+    margin-bottom: 10px;
+}

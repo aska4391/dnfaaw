@@ -1,0 +1,10 @@
+{
+  "title" : "RAREAVATAR",
+  "apikey" : "uUI8kZX3Nx0TNfL4rnuQYJuuly2E0QpX",
+  "refreshRate" : 100000,
+  "spreadsheet" : {
+    "id" : "1aCrR2Yl6NJox0LjZrFMaxN6KkFXgJUGJrcth8OSxs24",
+    "range" : "dataReceiver!A4",
+    "valueInputOption" : "USER_ENTERED"
+  }
+}

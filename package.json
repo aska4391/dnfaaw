@@ -1,0 +1,29 @@
+{
+  "name": "dnfaaw",
+  "version": "1.0.0",
+  "description": "serving 'Dungeon and fighter' auction data in real-time. using NeopleAPI",
+  "main": "index.js",
+  "scripts": {
+    "test": "",
+    "start": " concurrently \"npm run-script startServer\" \"npm run-script startClient\" \"node worker/workerController.js\" ",
+    "start-without-worker": "concurrently \"npm run-script startClient\" \"npm run-script startServer\"",
+    "start-only-worker": "\"node worker/workerController.js\"",
+    "startServer": "cd server && npm run-script start",
+    "startClient": "cd client && npm run-script start",
+    "create-worker": "cd worker && npm run-script create-worker"
+  },
+  "engines" : {
+    "node" : ">=16.0.0 <17.0.0"
+  },
+  "keywords": [
+    "express, react"
+  ],
+  "author": "vwvw",
+  "license": "ISC",
+  "dependencies": {
+    "client": "file:client",
+    "concurrently": "^7.0.0",
+    "server": "file:server",
+    "worker": "file:worker"
+  }
+}

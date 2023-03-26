@@ -1,0 +1,48 @@
+
+.openPopup {
+    cursor: pointer;
+}
+.openPopup:hover {
+    color : #01cbcb;
+}
+.footer-div {
+    filter: hue-rotate(117deg);
+    margin-bottom: 15px;
+}
+.footer {
+    position : relative;
+    background: #272b38;
+    padding: 40px 10px 100px 10px;
+    text-align: center;
+    font-family: consolas;
+    font-weight: 100;
+    color: darkgrey;
+    /* font-family: 'Kopub M'; */
+    /*background-color: #19171c;*/
+}
+
+.footer a:link {
+    color: darkgrey;
+    text-decoration: none;
+    transition : color 0.2s ;
+}
+
+.footer a:visited {
+    color: inherit;
+    text-decoration: none !important;
+}
+.footer a:hover {
+    color: #00e6cb;
+}
+
+.footer-menu {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+} 
+
+.footer-menu > div:not(:first-child)::before {
+    content : " ⦁ ";
+    color: #545454;
+    margin : 0 0 0 8px;
+}

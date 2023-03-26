@@ -1,0 +1,25 @@
+
+.worker-status-table {
+    font-family: consolas;
+}
+.worker-status {
+    display: flex;
+    height: 36px;
+    color: whitesmoke;
+}
+.worker-status > div {
+    border : 1px solid #80808085;
+}
+.worker-status > div:nth-child(1) {
+    width : 50%;
+}
+.worker-status > div:nth-child(2) {
+    width : 50%;
+}
+.worker-status > .workerName {
+
+}
+
+.time-stamp.delayed {
+    color : red;
+}

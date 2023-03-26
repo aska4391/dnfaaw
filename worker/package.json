@@ -1,0 +1,23 @@
+{
+  "name": "worker",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "node index",
+    "create-worker": "node js/create-worker"
+  },
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "command-line-args": "^5.2.1",
+    "exceljs": "^4.1.1",
+    "googleapis": "^95.0.0",
+    "node-cron": "^2.0.3",
+    "node-ipc": "^9.1.1",
+    "node-schedule": "^2.1.0",
+    "request": "^2.88.2",
+    "request-promise-native": "^1.0.9"
+  }
+}
